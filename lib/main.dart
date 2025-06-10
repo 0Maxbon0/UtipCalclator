@@ -38,7 +38,6 @@ class _UTipState extends State<UTip> {
   int _personCount = 1;
   double _tipPercentage = 0.0;
   double _billTotal = 0.0;
-  double _totalTip = 0.0;
 
   double totalTip() {
     return (_billTotal * _tipPercentage);
